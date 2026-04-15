@@ -3,6 +3,7 @@
 #include <string>
 #include <iostream>
 
+
 class StringComparator{
     public:
         static std::string lower_str(const std::string& lower);
@@ -11,6 +12,5 @@ class StringComparator{
         StringComparator();
         virtual ~StringComparator();
 };
-
 
 #endif

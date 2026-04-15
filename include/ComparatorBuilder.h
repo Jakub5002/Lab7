@@ -6,7 +6,6 @@
 #include "LengthLess.h"
 #include "IgonePrefixComparator.h"
 #include "CompositeComparator.h"
-namespace strcmp {
 
 class ComparatorBuilder {
     CaseInsensitiveLess ci;
@@ -48,5 +47,4 @@ public:
         return composite;
     }
 };
-}
 #endif
